@@ -66,45 +66,44 @@ font-family: sans-serif;
 }
 .experience-group {
 	margin: 0 auto;
-	margin-top: 290px;
+	margin-top: 145px;
 	width: 600px;
 	height: 300px;
 }
 
 .experience-android-box {
 	position: relative;
-	margin-left: 10px;
-	margin-top:  0px;
+	margin-left: -90px;
 	height: 250px;
 	width: 250px;
 	background: #9FD3A0;
 }
 
-.experience-android img {
+.experience-android-icon img {
 	margin-top: -53px;
 	margin-left: 30px;
 }
 
-.experience-android h3 {
+.experience-android-icon h3 {
 margin-left:30px;
 }
 
 .experience-web-box {
 	position: relative;
-	margin-left: 350px;
+	margin-left: 240px;
 	margin-top:  -250px;
 	width: 250px;
 	height: 250px;
 	background: #A0ADD4;
 }
 
-.experience-web img {
+.experience-web-icon img {
 	margin-top: -53px;
 	margin-left: 20px;
 }
 
 
-.experience-web h3 {
+.experience-web-icon h3 {
 margin-left:50px;
 }
 

@@ -3,13 +3,11 @@
 	flex-wrap: wrap;
 }
 
-@media screen and (max-width: )
-
-@media screen and (max-width: 1350px){
-
-
-
-
+@media screen and (max-width:666px ){
+	#name-self {
+		font-size: 40px;
+	}
+	#name-role {
+		font-size: 20px;
+	}
 }
-
-

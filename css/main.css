@@ -1,12 +1,10 @@
 html, body {
-	width: 100%;
+	width: 100vw;
 	height: 100%; /* 100% of the viewport height */
 	min-height: 100%;
+	min-width: 100%;
 	margin: 0;
-}
-
-div {
-	display: block;
+	overflow-x: hidden;
 }
 
 .main-header { 
@@ -44,13 +42,19 @@ margin-right: 10px;
 
 	background-color:black; 
 	color:white; 
-	font-family:sans-serif;
+	font-family:arial;
 	display:inline;
 	float:right;
 	font-size:30px;
 	position: relative;
-	top: 130px;
+	top: 110px;
 
+}
+
+
+.name-text {
+	color: #480000;
+	font-family: sans-serif;
 }
 
 .experience-ribbon {
@@ -60,53 +64,49 @@ margin-right: 10px;
 .experience-ribbon img {
 }
 
-.name-text {
-color: #480000;
-font-family: sans-serif;
-}
 .experience-group {
 	margin: 0 auto;
-	margin-top: 145px;
+	margin-top: 120px;
 	width: 600px;
 	height: 300px;
 }
 
 .experience-android-box {
 	position: relative;
-	margin-left: -90px;
+	margin-top:  0px;
+	margin-left: 10px;
 	height: 250px;
 	width: 250px;
 	background: #9FD3A0;
 }
 
-.experience-android-icon img {
+.experience-android img {
 	margin-top: -53px;
 	margin-left: 30px;
 }
 
-.experience-android-icon h3 {
+.experience-android h3 {
 margin-left:30px;
 }
 
 .experience-web-box {
 	position: relative;
-	margin-left: 240px;
+	margin-left: 340px;
 	margin-top:  -250px;
 	width: 250px;
 	height: 250px;
 	background: #A0ADD4;
 }
 
-.experience-web-icon img {
+.experience-web img {
 	margin-top: -53px;
 	margin-left: 20px;
 }
 
 
-.experience-web-icon h3 {
+.experience-web h3 {
 margin-left:50px;
 }
-
 
 
 .project-ribbon {
@@ -161,6 +161,31 @@ margin-left: 20px;
 margin-top: 70px;
 }
 
+.project-link a{
+font-family: sans-serif;
+vertical-align:center;
+}
+
+.project-link a:visited{
+	color:#FBF1C7;
+}
+
+
+.project-link a:link{
+	color:#FBF1C7;
+}
+
+
+.project-link  a:hover{
+	color:#CBAE06;
+}
+
+
+.project-link  a:active{
+	color:green;
+}
+
+
 #group-icon-web-1 {
 	width: 50px;
 	margin-top: 23px;
@@ -205,42 +230,25 @@ margin-top: 70px;
 	color:green;
 }
 
-.project-link-text{
-font-family: sans-serif;
-}
-
-.project-link a:visited{
-	color:#FBF1C7;
+.contact-group a {
+	font-family: sans-serif;
 }
 
 
-.project-link a:link{
-	color:#FBF1C7;
-}
 
-
-.project-link  a:hover{
-	color:#CBAE06;
-}
-
-
-.project-link  a:active{
-	color:green;
-}
-
-
-.content {
+.experience {
 	width: 100%;
 	height:100%;
 	background: #F38A59;
 }
 
-.content2 {
+.project {
+	width: 100%;
 	height:100%;
 	background: #BA3A5B;
 }
 
-.content3 {
+.contact {
 	height:100%;
 	background: #6C2973;
 }

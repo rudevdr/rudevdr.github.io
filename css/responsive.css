@@ -1,13 +1,211 @@
-.content {
-	display: flex;
-	flex-wrap: wrap;
-}
-
 @media screen and (max-width:666px ){
 	#name-self {
 		font-size: 40px;
 	}
 	#name-role {
+		margin-top:-20px;
 		font-size: 20px;
+	}
+
+	.experience-android-box {
+		margin-left: 40px;
+		width: 40%;
+		height: 40%;
+	}
+
+	.experience-android img {
+		width: 40%;
+		height: 40%;
+	}
+
+	.experience-android h3 {
+		font-size: 15px;
+		margin-top: 5px;
+		width: 40%;
+		height: 40%;
+	}
+
+	.experience-web-box {
+		margin-left: 320px;
+		margin-top: -120px;
+		width: 40%;
+		height: 40%;
+	}
+
+	.experience-web img {
+		margin-top: -45px;
+		width: 40%;
+		height: 40%;
+	}
+
+	.experience-web h3 {
+		font-size: 15px;
+		margin-top: 4px;
+		width: 40%;
+		height: 40%;
+	}
+
+
+	.project-android-box {
+		margin-left:40px;
+		width:40%;
+		height:40%;
+	}
+
+	#group-icon-android-1 {
+	position:absolute;
+	bottom:-3px;
+	right:190px;
+
+	}
+
+	#project-icon-android-1 {
+		position:absolute;
+		top:22px;
+		right:40px;
+		width:40%;
+		height:60%;
+	}
+
+	.project-web-box {
+		margin-left: 320px;
+		margin-top:-120px;
+		width:40%;
+		height:40%;
+	}
+
+
+	#project-icon-web-1 {
+		margin-top:-50px;
+		width:40%;
+		height:40%;
+	}
+
+	#group-icon-web-1 {
+		width:40%;
+		height:40%;
+	}
+
+
+	#web-font-fix-1 {
+		position:absolute;
+		top:143px;
+		font-size: 17px;
+	}
+
+
+	#web-font-fix-2 {
+		margin-bottom:70px;
+		font-size: 17px;
+	}
+}
+
+
+@media screen and (max-width:596px ){
+	#name-self {
+		font-size: 36px;
+	}
+	#name-role {
+		margin-top:-25px;
+		font-size: 17px;
+	}
+
+	.experience-android-box {
+		margin:0 auto;
+		margin-left: 160px;
+		width: 35%;
+		height: 35%;
+	}
+
+	.experience-android img {
+		width: 35%;
+		height: 35%;
+	}
+
+	.experience-android h3 {
+		font-size: 15px;
+		margin-top: 5px;
+		width: 35%;
+		height: 35%;
+	}
+
+	.experience-web-box {
+		margin: 0 auto;
+		margin-left: 160px;
+		margin-top: 70px;
+		width: 35%;
+		height: 35%;
+	}
+
+	.experience-web img {
+		margin-top: -45px;
+		width: 35%;
+		height: 35%;
+	}
+
+	.experience-web h3 {
+		font-size: 15px;
+		margin-top: 4px;
+		width: 35%;
+		height: 35%;
+	}
+
+
+
+	.project-android-box {
+		margin-left: 160px;
+		width:35%;
+		height:35%;
+	}
+
+	#group-icon-android-1 {
+		position:absolute;
+		bottom:-3px;
+		right:190px;
+
+	}
+
+	#project-icon-android-1 {
+		position:absolute;
+		top:22px;
+		right:40px;
+		width:35%;
+		height:35%;
+	}
+
+	.project-web-box {
+		margin-left: 160px;
+		margin-top:120px;
+		width:35%;
+		height:35%;
+	}
+
+
+	#project-icon-web-1 {
+		margin-top:-50px;
+		width:35%;
+		height:35%;
+	}
+
+	#group-icon-web-1 {
+		width:35%;
+		height:35%;
+	}
+
+
+	#web-font-fix-1 {
+		margin-top:-40px;
+		font-size: 17px;
+	}
+
+
+	#web-font-fix-2 {
+		margin-bottom:70px;
+		font-size: 17px;
+	}
+
+	body {
+		min-width: 100%;
+		float: right;
 	}
 }

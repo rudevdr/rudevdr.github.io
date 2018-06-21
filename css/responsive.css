@@ -1,3 +1,4 @@
+
 @media screen and (max-width:666px ){
 	#name-self {
 		font-size: 40px;
@@ -101,6 +102,7 @@
 }
 
 
+
 @media screen and (max-width:596px ){
 	#name-self {
 		font-size: 36px;
@@ -111,8 +113,7 @@
 	}
 
 	.experience-android-box {
-		margin:0 auto;
-		margin-left: 160px;
+		margin-left: 60px;
 		width: 35%;
 		height: 35%;
 	}
@@ -130,8 +131,7 @@
 	}
 
 	.experience-web-box {
-		margin: 0 auto;
-		margin-left: 160px;
+		margin-left: 60px;
 		margin-top: 70px;
 		width: 35%;
 		height: 35%;
@@ -153,7 +153,7 @@
 
 
 	.project-android-box {
-		margin-left: 160px;
+		margin-left: 60px;
 		width:35%;
 		height:35%;
 	}
@@ -174,7 +174,7 @@
 	}
 
 	.project-web-box {
-		margin-left: 160px;
+		margin-left: 60px;
 		margin-top:120px;
 		width:35%;
 		height:35%;
@@ -206,6 +206,9 @@
 
 	body {
 		min-width: 100%;
-		float: right;
+		float: center;
 	}
 }
+
+
+

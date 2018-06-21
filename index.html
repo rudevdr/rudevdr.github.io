@@ -2,29 +2,35 @@
 <html lang="en">
 <head>
 	<meta charset="UTF-8">
-	<title></title>
+	<title>Nikhil Panday's Portfolio</title>
 	<meta name="viewport" content="idth=device-width, initial-scale=1, maximum-scale=1">	
 	<script src='http://127.0.0.1:9001/js/socket.js'></script>
 	<link rel="stylesheet" href="css/main.css" type="text/css">
+
+	<!-- Css stylesheet for responsiveness -->
 	<link rel="stylesheet" href="css/responsive.css" type="text/css">
 </head>
-<body>
-	<div class="main-header">
-		<div class="name">
-			<h1 id="name-self">Nikhil Panday.</h1>
-			<h1 id="name-role">Android & Front-End Web Developer</h1>
-		</div>
-	</div>
 
+<body>
+
+	<!-- Header File -->
+	<header class="main-header">
+			<div class="name">
+				<h1 id="name-self">Nikhil Panday.</h1>
+				<h1 id="name-role">Android & Front-End Web Developer</h1>
+			</div>
+	</header>
+
+	<!-- First Part: Skills -->
 	<div class="experience">
 		<div class="experience-ribbon">
-			<img src="./img/experience-ribbon.png">
+			<img src="./img/experience-ribbon.png" alt="Skills">
 		</div>
 
 		<div class="experience-group">
 			<div class="experience-android-box">
 				<div class="experience-android">
-					<img src="./img/experience-android.png">
+					<img src="./img/experience-android.png" alt="Android">
 					<h3 class="name-text">Android Application Developer</h3>
 				</div>	
 			</div>
@@ -32,47 +38,54 @@
 			<div class="experience-web-box">
 				<div class="experience-web">
 
-					<img src="./img/experience-web.png">
+					<img src="./img/experience-web.png" alt="Front-End">
 					<h3 class="name-text">Front-End Web Development</h3>
 				</div>	
 			</div>
 		</div>
 	</div>
 
+	<!-- Second Part: Projects Completed -->
 	<div class="project">
 		<div class="project-ribbon">
-			<img src="./img/project-ribbon.png">
+			<img src="./img/project-ribbon.png" alt="Projects">
 		</div>
 
 		<div class="project-group">
 			<div class="project-android-box">
 				<div class="project-android project-link">
-					<img src="./img/project-napguru-icon.png" id="project-icon-android-1">
-					<img src="./img/project-android.png" id="group-icon-android-1">
+					<img src="./img/project-napguru-icon.png" id="project-icon-android-1" alt="Napguru">
+					<img src="./img/project-android.png" id="group-icon-android-1" alt="android">
 					<a href="https://play.google.com/store/apps/details?id=io.rudevdr.napguru" id="web-font-fix-1"><h3>Nap Guru: Android Application to set Nap Alarms.</h3></a>
 				</div>	
 			</div>
 			<div class="project-web-box">
 				<div class="project-web project-link">
-					<img src="./img/project-jeevanrakht-icon.png" id="project-icon-web-1">
-					<img src="./img/project-web.png" id="group-icon-web-1">
+					<img src="./img/project-jeevanrakht-icon.png" id="project-icon-web-1" alt="Jeevan-Rakht">
+					<img src="./img/project-web.png" id="group-icon-web-1" alt="web">
 					<a href="https://github.com/UdacityFrontEndScholarship/jeevan-rakht" id="web-font-fix-2"><h3>Jeevan-Rakht: Website to Donate blood.</h3></a>
 				</div>	
 			</div>
 		</div>
 	</div>
 
-
+	<!-- Third Part: Contact Me -->
 	<div class="contact">
 		<div class="contact-ribbon">
-			<img src="./img/contact-ribbon.png">
+			<img src="./img/contact-ribbon.png" alt="Contact Me">
 		</div>
 
 		<div class="contact-group">
-			<a href="mailto:gudayschief@gmail.com" target="_blank"><img src="https://png.icons8.com/color/1600/gmail.png" class="contact-icon">gudayschief@gmail.com</a>	
-			<a href="http://twitter.com/rudevdr" target="_blank"><img src="https://cdn2.iconfinder.com/data/icons/minimalism/512/twitter.png" class="contact-icon">rudevdr</a>	
-			<a href="http://reddit.com/u/rudevdr" target="_blank"><img src="https://vignette.wikia.nocookie.net/aphmau/images/8/88/Reddit_Icon.png/revision/latest?cb=20170501054512" class="contact-icon">rudevdr</a>	
+			<a href="mailto:gudayschief@gmail.com" target="_blank"><img src="https://png.icons8.com/color/1600/gmail.png" class="contact-icon" alt="email me">gudayschief@gmail.com</a>	
+			<a href="http://twitter.com/rudevdr" target="_blank"><img src="https://cdn2.iconfinder.com/data/icons/minimalism/512/twitter.png" class="contact-icon" alt="twitter">rudevdr</a>	
+			<a href="http://reddit.com/u/rudevdr" target="_blank"><img src="https://vignette.wikia.nocookie.net/aphmau/images/8/88/Reddit_Icon.png/revision/latest?cb=20170501054512" class="contact-icon" alt="reddit">rudevdr</a>	
 		</div>
 	</div>
+
+	<!-- Footer for project repo info -->
+	<footer class="main-footer"> 
+		<p>Checkout the project repo <a href="https://github.com/rudevdr/Udacity-Build-Portfolio" target="_blank">here</a>.</p>
+	</footer>
+
 </body>
 </html>

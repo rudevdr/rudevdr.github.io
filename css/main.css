@@ -1,5 +1,6 @@
+
 html, body {
-	width: 100%;
+	width: 100vw;
 	height: 100%; /* 100% of the viewport height */
 	min-height: 100%;
 	min-width: 100%;
@@ -7,55 +8,55 @@ html, body {
 	overflow-x: hidden;
 }
 
-.main-header { 
+
+/* HEADER */
+.main-header {
 	background-color: #FBEF5E;
 	height: 200px;
 	width: 100%;
 	position: relative;
-	float:right;
+	float: right;
 }
 
 .name {
 float: right;
-margin:0 auto;
+margin: 0 auto;
 margin-right: 10px;
 
 }
 
 #name-self {
-
-	height; 100%;
-	background-color:black; 
-	color:white; 
-	font-family:sans-serif;
-	display:inline;
-	float:right;
+	background-color: black;
+	color: white;
+	font-family: sans-serif;
+	display: inline;
+	float: right;
 	position: absolute;
 	top: 10px;
-	text-align:left;
+	text-align: left;
 	clear: both;
-	font-size:60px;
+	font-size: 60px;
 }
 
 #name-role {
 
-	background-color:black; 
-	color:white; 
-	font-family:arial;
-	display:inline;
-	float:right;
-	font-size:30px;
+	background-color: black;
+	color: white;
+	font-family: arial;
+	display: inline;
+	float: right;
+	font-size: 30px;
 	position: relative;
 	top: 110px;
 
 }
-
 
 .name-text {
 	color: #480000;
 	font-family: sans-serif;
 }
 
+/* SKILLS PART STYLING */
 .experience-ribbon {
 	position: relative;
 }
@@ -85,7 +86,7 @@ margin-right: 10px;
 }
 
 .experience-android h3 {
-margin-left:30px;
+margin-left: 30px;
 }
 
 .experience-web-box {
@@ -102,12 +103,11 @@ margin-left:30px;
 	margin-left: 20px;
 }
 
-
 .experience-web h3 {
-margin-left:50px;
+margin-left: 50px;
 }
 
-
+/* PROJECTS COMPLETED PART STYLING */
 .project-ribbon {
 	position: relative;
 }
@@ -151,8 +151,6 @@ margin-left: 30px;
 	background: #CA929D;
 }
 
-
-
 #project-icon-web-1 {
 width: 220px;
 height: 100px;
@@ -162,34 +160,31 @@ margin-top: 70px;
 
 .project-link a{
 font-family: sans-serif;
-vertical-align:center;
+vertical-align: center;
 }
 
 .project-link a:visited{
 	color:#FBF1C7;
 }
 
-
 .project-link a:link{
 	color:#FBF1C7;
 }
 
-
 .project-link  a:hover{
-	color:#CBAE06;
+	color: #CBAE06;
 }
-
 
 .project-link  a:active{
-	color:green;
+	color: green;
 }
-
 
 #group-icon-web-1 {
 	width: 50px;
 	margin-top: 23px;
 }
 
+/* CONTACT ME PART STYLING */
 .contact-ribbon {
 	position: relative;
 }
@@ -199,55 +194,59 @@ vertical-align:center;
 	margin-top: 60px;
 	width: 80px;
 	height: 80px;
-	font: arial;
 	font-size: 22px;
 	text-align: center;
 }
 
 .contact-icon {
-	width:75px;
-	height:75px;
+	width: 75px;
+	height: 75px;
 
 }
 
-.contact-group a:visited{
+.contact-group a:visited {
 	color:#FBF1C7;
 }
-
 
 .contact-group a:link{
 	color:#FBF1C7;
 }
 
-
-.contact-group  a:hover{
-	color:#CBAE06;
+.contact-group  a:hover, .main-footer a:hover{
+	color: #CBAE06;
 }
 
-
-.contact-group  a:active{
-	color:green;
+.contact-group  a:active, .main-footer a:active{
+	color: green;
 }
 
 .contact-group a {
 	font-family: sans-serif;
 }
 
-
-
 .experience {
 	width: 100%;
-	height:100%;
+	height: 100%;
 	background: #F38A59;
 }
 
 .project {
 	width: 100%;
-	height:100%;
+	height: 100%;
 	background: #BA3A5B;
 }
 
 .contact {
-	height:100%;
+	height: 100%;
 	background: #6C2973;
+}
+
+/* FOOTER */
+.main-footer{
+font-family: ans-serif;
+text-align: center;
+}
+
+.main-footer a:link, .main-footer a:visited{
+	color: red;
 }

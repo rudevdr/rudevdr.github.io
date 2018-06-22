@@ -344,6 +344,7 @@
 
 /* BREAKPOINT 4 for height */
 @media screen and (max-height: 700px) and (max-width: 400px){
+
 	.experience-android-box {
 		margin-top: -70px;
 		margin-left: 80px;
@@ -446,3 +447,109 @@
 }
 
 
+/* BREAKPOINT 5 for height */
+@media screen and (max-height: 700px) and (max-width: 544px){
+
+	.experience-android-box {
+		margin-top: -70px;
+		margin-left: 110px;
+		width: 20%;
+		height: 20%;
+	}
+
+	.experience-android img {
+		width: 20%;
+		height: 20%;
+	}
+
+	.experience-android h3 {
+		font-size: 10px;
+		margin-top: 5px;
+		width: 20%;
+		height: 20%;
+	}
+
+	.experience-web-box {
+		margin-top: 70px;
+		margin-left: 110px;
+		width: 20%;
+		height: 20%;
+	}
+
+	.experience-web img {
+		margin-top: -45px;
+		width: 20%;
+		height: 20%;
+	}
+
+	.experience-web h3 {
+		font-size: 8px;
+		margin-top: 4px;
+		width: 20%;
+		height: 20%;
+	}
+
+	.project-android-box {
+		margin-left: 80px;
+		width: 20%;
+		height: 20%;
+	}
+
+	.name-text {
+	font-size: 3px;
+	}
+
+	#group-icon-android-1 {
+		position: absolute;
+		left: 00px;
+		width: 25%;
+		height: 30%;
+	}
+
+	#project-icon-android-1 {
+		position: absolute;
+		left: 10px;
+		top: 7px;
+		width: 40%;
+		height: 60%;
+	}
+
+	.project-web-box {
+		margin-left: 80px;
+		margin-top: 120px;
+		width: 20%;
+		height: 20%;
+	}
+
+	#project-icon-web-1 {
+		position: absolute;
+		right:20px;
+		width: 55%;
+		height: 45%;
+	}
+
+	#group-icon-web-1 {
+		margin-top: 30px;
+		margin-bottom: 0;
+		width: 20%;
+		height: 20%;
+	}
+
+	#web-font-fix-1 {
+		margin-top: -60px;
+		font-size: 7px;
+	}
+
+	#web-font-fix-2 {
+		margin-top: 10px;
+		font-size: 7px;
+	}
+
+
+	#logo {
+		margin-top: 35%;
+		margin-left: 140px;
+		width: 50px;
+		height: 50px;
+	}
+}

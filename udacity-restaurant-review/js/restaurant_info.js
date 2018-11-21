@@ -200,3 +200,15 @@ getParameterByName = (name, url) => {
     return '';
   return decodeURIComponent(results[2].replace(/\+/g, ' '));
 }
+
+//Skip To Main content link
+skip = document.querySelector('.skip');
+skip.addEventListener("keydown", function () {
+	if (e.keyCode === 13) {  //checks whether the pressed key is "Enter"
+		document.getElementById('restaurant-name').focus()
+	}
+});
+skip.addEventListener("onclick", function () {
+	document.getElementById('restaurant-name').focus()
+});
+

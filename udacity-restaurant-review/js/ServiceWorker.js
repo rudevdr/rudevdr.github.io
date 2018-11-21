@@ -15,11 +15,11 @@ console.log('inside sw!')
         return caches.open(version + staticCacheName)
             .then(function (cache) {
                 return cache.addAll([
-                    '/js/',
-                    '/css/',
-                    '/img/',
-                    '/data/',
-                    '/'
+                    '/js/*',
+                    '/css/*',
+                    '/img/*',
+                    '/data/*',
+                    '/*'
                 ]);
             });
     };

@@ -1,0 +1,107 @@
+@charset "utf-8";
+/*Stylesheet to make the website Responsive.*/
+
+
+/*BreakPoint #1*/
+@media (max-width: 524px){
+	nav h1 a {
+		color: #fff;
+		font-size: 11pt;
+	}
+}
+
+/*BreakPoint #2*/
+@media (min-width: 524px) and (max-width: 640px){
+	nav h1 a {
+		color: #fff;
+		font-size: 16pt;
+	}
+}
+
+/*BreakPoint #3*/
+@media (min-width: 640px) and (max-width: 929px){
+	nav h1 a {
+		color: #fff;
+		font-size: 18pt;
+	}
+	#restaurants-list li {
+		max-width: 42%;
+	}
+	#restaurants-list li h1 {
+		height: 35px;
+	}
+}
+
+/*BreakPoint #4: for restaurant page*/
+@media (max-width: 929px){
+
+	html, body {
+		max-width: 100%;
+		overflow-x: hidden;
+	}
+
+	.inside header {
+		position: relative;
+		top: 0;
+		width: 100%;
+		z-index: 1000;
+	}
+
+	#breadcrumb {
+		position: relative;
+		background-color: #eee;
+		font-size: 17px;
+		width: auto;
+	}
+
+	.inside #map-container {
+		top: 0;
+		background: #0077be none repeat scroll 0 0;
+		height: 350px;
+		position: relative;
+		width: auto;
+		margin-top: 0px;
+	}
+
+	#restaurant-container{
+		padding: 40px 30px;
+		width: 95%;
+	}
+
+	#restaurant-img {
+		width: 0 auto;
+	}
+
+	#restaurant-cuisine {
+		width: 90%;
+	}
+
+	#reviews-container {
+		width: 80%;
+		padding: 40px 30px;
+	}
+
+	#reviews-list li {
+		width: 90%;
+	}
+
+	.inside #footer {
+		bottom: 0;
+		position: absolute;
+		width: 100%;
+	}
+
+}
+
+/*BreakPoint #5*/
+@media (min-width: 930px) {
+	#restaurants-list li {
+		max-width: 30%;
+	}
+	#restaurants-list p {
+		width: 66%;
+	}  
+	#restaurants-list li h1 {
+		height: 41px;
+	}
+}

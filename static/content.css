@@ -1,0 +1,26 @@
+body {
+	background: #1c1616;
+	font-family: Sans-Serif, Helvetica, Arial;
+}
+
+h1{
+	float: middle;
+	font-size: 25px;
+	color: #e3dedb;
+	text-decoration: none;
+}
+
+.project-card {
+	background-color: orange;
+	border: 2px solid #f3f3f3;
+	border-radius: 20px;
+	display: inline-block;
+	width: 0 auto;
+	padding: 20px;
+}
+
+.project-card:hover {
+	background-color: green;
+	cursor: pointer;
+}
+

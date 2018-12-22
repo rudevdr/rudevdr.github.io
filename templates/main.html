@@ -1,0 +1,16 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+	<meta charset="UTF-8">
+	<title>Who's rudevdr?</title>
+	<link rel="stylesheet" type="text/css" href={{url_for("static", filename="main.css")}}>
+    <script src='http://127.0.0.1:9001/js/socket.js'></script>
+</head>
+<body>
+	<div class="nav-links">
+		<a href="{{ url_for("about") }}">about-me |</a>
+		<a href="{{ url_for("projects") }}">my-projects |</a>
+		<a href="{{ url_for("contact") }}">reach-me</a>
+	</div>
+</body>
+</html>

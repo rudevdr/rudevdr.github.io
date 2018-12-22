@@ -1,0 +1,21 @@
+body {
+	background: #1c1616;
+	font-family: Sans-Serif, Helvetica, Arial;
+}
+
+.nav-links a{
+	font-size: 25px;
+	color: #e3dedb;
+	text-decoration: none;
+}
+
+.nav-links a:hover {
+	background-color: #e3dedb;
+	color: #1c1616;
+    border-bottom: 1px dotted #1c1616;
+}
+
+.nav-links {
+	float: right;
+	margin: 30px;
+}

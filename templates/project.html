@@ -1,0 +1,8 @@
+<div class="project-cards">
+{% for id, item in data.items() %}
+	<div onclick="window.open('{{ item[1] }}', '_blank');" class="project-card">
+		<img src={{ item[0] }} class="project-card-image"/>
+		<h1 class="project-card-title">{{ item[2] }}</h1>
+	</div>
+{% endfor %}
+</div>
